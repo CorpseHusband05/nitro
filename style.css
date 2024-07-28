@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Edo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo'), url('edo.woff') format('woff');
+    }
+
+
+body{
+    background-color: rgb(67, 184, 254);
+    color: white;
+}
+h3{
+    font-family:'Edo';
+    font-size: 32px;
+    text-align: center;
+}
+div{
+    width: 90%;
+    margin: auto;
+    
+}
+div img{
+    width: 100%;
+}
+.social{
+    display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+margin: auto;
+padding: 30px;
+}
+.social i{
+    font-size: 46px;
+    color: black;
+}
+
+.video{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+video{
+    width: 80%;
+}
+#thirdVideo{
+    transform: rotate(-90deg);
+}
+#footer{
+    color: #f87b34; 
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+@media(max-width:768px) {  
+    div{
+        width: 100%;
+    } 
+    div img{
+        width: 100%;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .social{
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .video{
+        width: 90%;
+    }
+    video{
+        width: 90%;
+    }
+    #footer{
+font-size: 32px;
+    }
+}
